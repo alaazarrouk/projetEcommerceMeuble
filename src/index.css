@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@font-face {
+  font-family: "SourceSansPro";
+  src: local("Source_Sans_Pro"),
+    url(./fonts/Source_Sans_Pro/SourceSansPro-Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Popins-Light";
+  src: local("Popins"),
+    url(./fonts/Poppins/Poppins-ExtraLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Popins-Bold";
+  src: local("Popins"), url(./fonts/Poppins/Poppins-Bold.ttf) format("truetype");
+}

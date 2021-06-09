@@ -1,0 +1,233 @@
+.Order_container {
+  width: 90%;
+  margin: 2em auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Order_title {
+  width: 100%;
+}
+.Order_subtitle_text {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #ff003c;
+  font-family: Popins-Bold;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: 14px;
+  padding: 1em 0;
+  border-bottom: 1px solid rgb(243, 243, 243);
+  margin-bottom: 2em;
+}
+
+.Order_title_text {
+  margin-top: 1em;
+  text-align: center;
+  color: #0b1c39;
+  font-family: Popins-Bold;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  font-stretch: expanded;
+  font-size: 30px;
+  padding: 1em 0;
+}
+.Order_title_content {
+  justify-content: center;
+}
+.Order_container_left_items {
+  width: 70%;
+}
+.Order_container_address,
+.Order_container_products {
+  width: 45%;
+  position: static;
+}
+.Order_right_items,
+.Order_product_title {
+  color: #ff003c;
+  font-family: Popins-Bold;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: 14px;
+  padding: 1em 0;
+  border-bottom: 1px solid rgb(243, 243, 243);
+}
+.Order_left_items {
+  width: 100%;
+  margin: 2em auto;
+  display: block;
+}
+.Order_info_delivery,
+.Order_title_content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.Order_infos_title,
+.Order_row_left_items,
+.Order_title_content_title {
+  color: #0b1c39;
+  font-family: Popins-Bold;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 16px;
+  margin-bottom: 0.5em;
+}
+.Order_infos_text,
+.Order_row_right_items,
+.Order_title_content_text {
+  color: #0b1c39;
+  font-family: Popins-Light;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+}
+.Order_product {
+  display: flex;
+  margin: 2em 0;
+  justify-content: space-between;
+}
+.Order_product_image {
+  width: 20%;
+  height: 150px;
+  border: 2px solid rgb(236, 236, 236);
+}
+.Order_product_image img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.Order_product_infos {
+  width: 75%;
+}
+.Order_product-row {
+  display: flex;
+}
+
+.Order_container_right_items {
+  width: 25%;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  background-color: rgb(247, 247, 244);
+  height: fit-content;
+  margin-top: 7.5em;
+  padding: 1em 0;
+}
+.Order_right_items_title {
+  width: 100%;
+  font-size: 14px;
+  color: #122546;
+  font-family: Popins-Light;
+  line-height: 27px;
+  margin: 2em auto;
+  padding-bottom: 2em;
+  border-bottom: 2px solid rgb(236, 236, 236);
+}
+.Order_right_items_content {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  border-bottom: 1.5px solid rgb(236, 236, 236);
+}
+.row_content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+.row_content_left {
+  width: 50%;
+  color: #21375f;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Popins-Light;
+  line-height: 27px;
+}
+.row_content_middle {
+  width: 15%;
+  color: rgb(85, 39, 39);
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Popins-Light;
+  line-height: 27px;
+  letter-spacing: 0.5ch;
+  font-style: italic;
+}
+.row_content_right {
+  width: 30%;
+  text-align: end;
+  color: rgb(85, 39, 39);
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Popins-Light;
+  line-height: 27px;
+  letter-spacing: 0.5ch;
+  font-style: italic;
+}
+
+.total_amount {
+  font-size: 18px !important;
+  font-family: Popins-Bold;
+}
+.Order_right_items_details {
+  margin: 0em auto !important;
+  width: 90%;
+  font-size: 14px;
+  color: #122546;
+  font-family: Popins-Light;
+  line-height: 27px;
+  margin: 2em auto;
+  padding: 2em 0;
+  border-bottom: 2px solid rgb(236, 236, 236);
+}
+
+.details_title {
+  font-size: 16px;
+}
+.details_content {
+  margin-top: 1em;
+  font-size: 12px;
+}
+.button_confirmer_commande {
+  width: 90%;
+  margin: 1em auto;
+}
+.confimer_button {
+  width: 100%;
+  padding: 1em 0;
+  font-family: Popins-Light;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  outline: none;
+  background-color: #0b1c39;
+  color: white;
+}
+.confimer_button:hover {
+  background-color: #ff003c;
+  transition: ease 0.3s;
+}
+.rc_title {
+  padding-bottom: 1em;
+  border-bottom: 2px solid rgb(236, 236, 236);
+}
+.rc_total {
+  padding-top: 1em;
+  border-top: 2px solid rgb(236, 236, 236);
+}
+.rcl_total {
+  font-family: Popins-Bold;
+}
+.oc_montant {
+  font-family: Popins-Bold;
+  font-weight: bolder;
+  color: brown;
+}

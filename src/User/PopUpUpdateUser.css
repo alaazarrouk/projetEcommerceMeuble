@@ -1,0 +1,37 @@
+.PopUpUpdateUser {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+.update_title {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0b1c39;
+  font-family: Popins-Bold;
+  font-weight: 700;
+  font-size: 20px;
+}
+.button_update {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.update_button {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  outline: none;
+  background-color: #0b1c39;
+  border-radius: 25px;
+  padding: 1em 6em;
+  color: white;
+  font-family: Popins-Light;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}

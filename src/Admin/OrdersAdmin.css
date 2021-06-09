@@ -1,0 +1,15 @@
+.OrdersAdmin {
+  margin-top: 7.5em;
+}
+
+.table_title_search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.table_orders_content{ 
+    width: 100%; 
+    height: 500px; 
+    overflow: auto; 
+}

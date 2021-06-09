@@ -1,0 +1,243 @@
+.Accueil {
+  margin-top: 7.5em;
+}
+.banner {
+  background-color: #f0f0f2;
+  display: flex;
+  padding: 5em;
+  justify-content: space-between;
+}
+.banner_text {
+  width: 50%;
+  margin-top: 8em;
+  margin-left: 6em;
+}
+.banner_title {
+  font-family: Popins-Light;
+  font-size: 50px;
+  margin-bottom: 1em;
+  font-weight: 700;
+  line-height: 100.2px;
+  color: #152c53;
+}
+.sub_title {
+  font-size: 16px;
+  font-family: Popins-Light;
+  line-height: 27px;
+  color: #0b1c39;
+}
+.shop_button {
+  margin-top: 2em;
+  outline: none;
+  background-color: #0b1c39;
+  padding: 1.5em 3em;
+  color: white;
+  font-family: Popins-Light;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+.shop_button:hover {
+  background-color: #ff003c;
+  transition: all ease 0.5s;
+}
+.banner_image {
+  margin-top: 5em;
+  width: 30%;
+  height: auto;
+}
+.banner_image img {
+  border-radius: 0 100px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 1px 1px 1px 1px rgb(190, 190, 190);
+}
+
+.categories {
+  width: 100%;
+  padding: 5em 0;
+  height: auto;
+  background-color: white;
+  justify-content: center;
+  align-content: center;
+}
+.categories_title {
+  display: flex;
+  justify-content: center !important;
+  color: #0b1c39;
+  font-family: Popins-Light;
+  font-weight: 700;
+  font-size: 30px;
+}
+.categories_content {
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  height: auto;
+  display: grid;
+  grid-column-gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+.categorie {
+  height: auto;
+  z-index: 800;
+  margin-top: 2em;
+  align-self: center;
+}
+.categorie:hover {
+  transform: scale(1.02);
+  opacity: 1;
+  transition: transform 450ms;
+  z-index: 800;
+}
+.categorie_image {
+  width: 100%;
+  height: auto;
+}
+.categorie_image img {
+  object-fit: cover;
+  width: 100%;
+  height: 450px;
+  display: block;
+}
+.categorie_title {
+  width: 100%;
+  display: flex;
+  margin-top: 1.5em;
+  justify-content: center;
+}
+.categorie_title h3 {
+  color: #444444;
+  font-family: Popins-Light;
+  font-weight: 700;
+  font-size: 25px;
+}
+.button_checkNow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.check_button {
+  margin-top: 1em;
+  outline: none;
+  background-color: #0b1c39;
+  padding: 1em 3em;
+  color: white;
+  font-family: Popins-Light;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+.check_button:hover {
+  background-color: #ff003c;
+  transition: all ease 0.5s;
+}
+
+.popular_products {
+  background-color: rgb(241, 241, 231);
+  padding: 3em 0;
+  width: 100%;
+}
+.popular_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  color: #0b1c39;
+  font-family: Popins-Light;
+  font-weight: 700;
+  font-size: 30px;
+}
+.popular_subTitle {
+  display: flex;
+  margin-bottom: 1em;
+  color: #0b1c39;
+  font-family: Popins-Light;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 3em;
+}
+.popular_content {
+  width: 75%;
+  margin: 0 auto;
+}
+.product {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5em;
+}
+.product_info {
+  width: 50%;
+  height: auto;
+}
+.product_image {
+  width: 40%;
+  height: 300px;
+}
+.product_image1 {
+  width: 40%;
+  height: 300px;
+}
+.product_info1 {
+  width: 40%;
+  height: auto;
+}
+.product_description1 {
+  width: 100%;
+  color: #0b1c39;
+  font-family: Popins-Light;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+.product_image img,
+.product_image1 img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+.product_title {
+  color: #0b1c39;
+  font-family: Popins-Bold;
+  font-weight: bolder;
+  letter-spacing: 4px;
+  font-stretch: expanded;
+  font-size: 40px;
+  margin-bottom: 0.5em;
+}
+.product_description {
+  width: 80%;
+  color: #0b1c39;
+  font-family: Popins-Light;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+.product_price {
+  color: #0b1c39;
+  font-size: 20px;
+  font-family: Popins-Bold;
+  margin-bottom: 1em;
+}
+.product_price span {
+  color: #ff003c;
+}
+.addToCart_button {
+  outline: none;
+  background-color: #ff003c;
+  padding: 1em 3em;
+  color: white;
+  font-family: Popins-Light;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+.addToCart_button:hover {
+  background-color: #0b1c39;
+  transition: all ease 0.5s;
+}

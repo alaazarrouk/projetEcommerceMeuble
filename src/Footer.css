@@ -1,0 +1,79 @@
+.Footer {
+  width: 100%;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  padding: 2em 0;
+}
+.footer_content {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1.5em;
+  width: 40%;
+}
+.location,
+.phone,
+.email {
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+.location_text,
+.phone_text,
+.email_text {
+  margin-left: 0.5em;
+  color: aliceblue;
+  font-family: Popins-Light;
+}
+.phone_text span {
+  color: #ad3202;
+}
+
+.phone_icon img,
+.location_icon img,
+.email_icon img {
+  width: 20px;
+  height: 20px;
+}
+.contact {
+  width: 50%;
+  margin-top: 1.5em;
+}
+.contact_title {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-family: Popins-Bold;
+  margin-bottom: 1em;
+  text-align: center;
+}
+label {
+  color: white;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.envoyer_button {
+  outline: none;
+  background-color: #ff003c;
+  padding: 1em 3em;
+  color: white;
+  font-family: Popins-Light;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+}
+
+.contact_form_container {
+  margin-bottom: 1em;
+}

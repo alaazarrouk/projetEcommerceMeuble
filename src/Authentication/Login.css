@@ -1,0 +1,145 @@
+.Login {
+  margin-top: 7.5em;
+  width: 100%;
+  height: auto;
+}
+.login_main {
+  padding: 1px 0;
+  width: 100%;
+}
+.login_content {
+  width: 80%;
+  display: flex;
+  height: auto;
+  margin: 6em auto !important;
+}
+.right_content {
+  padding: 3em;
+  width: 40%;
+  background-color: #0b1c39;
+}
+.login_welcome {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  color: white;
+  font-family: Popins-Bold;
+  font-weight: 700;
+  font-size: 20px;
+  align-items: center;
+}
+.login_welcome h1 {
+  text-align: center;
+}
+.login_welcome_text {
+  display: flex;
+  margin-bottom: 1em;
+  color: white;
+  font-family: Popins-Light;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 40px;
+  margin-bottom: 3em;
+}
+.button_register {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3em;
+}
+.register_button {
+  margin-top: 1em;
+  outline: none;
+  background-color: #0b1c39;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 1em 6em;
+  color: white;
+  font-family: Popins-Light;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}
+.left_content {
+  width: 60%;
+  background-color: rgb(247, 246, 244);
+  padding: 1em 3em;
+}
+.login_title {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0b1c39;
+  font-family: Popins-Bold;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.login_icons {
+  width: 100%;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+.login_facebook_icon {
+  margin: 0 1em;
+}
+.login_google_icon {
+  margin: 0 1em;
+}
+.login_linkedin_icon {
+  margin: 0 1em;
+}
+.login_facebook_icon img,
+.login_google_icon img,
+.login_linkedin_icon img {
+  object-fit: cover;
+  height: 30px;
+  width: 30px;
+}
+.login_subtitle {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  font-family: Popins-Light;
+  font-size: 12px;
+  color: rgb(156, 156, 156);
+  margin-top: 2em;
+  line-height: 10px;
+  margin-bottom: 2em;
+}
+.login_form {
+  width: 100%;
+}
+.form_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.signin_button {
+  margin-top: 1em;
+  outline: none;
+  background-color: #0b1c39;
+  border-radius: 25px;
+  padding: 1em 6em;
+  color: white;
+  font-family: Popins-Light;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}
+.button_signin {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}

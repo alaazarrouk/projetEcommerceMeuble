@@ -1,0 +1,110 @@
+.PopUpOrders {
+  padding: 2em 2em;
+}
+
+.PopUpOrders_title {
+  text-align: center;
+  color: #0b1c39;
+  font-family: Popins-Bold;
+  font-weight: 700;
+  font-size: 20px;
+}
+.client_container {
+  margin: 1em 0;
+  display: block;
+}
+.client_container_title,
+.orders_container_title {
+  color: #0b1c39;
+  font-family: Popins-Bold;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.client_id_container,
+.client_name_container {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+.client_title {
+  color: #0b1c39;
+  font-family: Popins-Bold;
+  font-weight: bolder;
+  font-size: 12px;
+}
+.client_text {
+  color: #0b1c39;
+  font-family: Popins-Light;
+  font-weight: bolder;
+  font-size: 12px;
+  margin-left: 1em;
+}
+.orders_container {
+  margin: 1em 0;
+}
+.orders_container_title,
+.orders_container_search {
+  margin: 1em 0;
+}
+.orders_container_search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.search_bar {
+  width: 40%;
+}
+.search_date {
+  margin-bottom: 0.5em;
+  margin-left: 2em;
+  display: flex;
+  align-items: center;
+}
+.date_bar {
+  margin-left: 2em;
+}
+.Orders_id {
+  font-family: Popins-Bold;
+  font-weight: bolder;
+  color: brown;
+}
+.Orders_total {
+  font-family: Popins-Bold;
+  font-weight: bolder;
+  font-size: 14px;
+}
+.badge_confirmed {
+  font-size: 10px;
+}
+.bg-modal-order {
+  background-color: rgba(221, 221, 221, 0.932);
+  width: 100%;
+  height: 100% !important;
+  position: unset;
+  z-index: 2000;
+  top: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-contents-order {
+  max-height: 600px;
+  overflow-y: auto;
+  width: 1000px;
+  background-color: rgb(255, 254, 254);
+  position: relative;
+  border-radius: 24px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.st_badge {
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+.table_client_orders_content{ 
+  width: 100%;
+  height: 400px; 
+  overflow:auto ;
+
+}
